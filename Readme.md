@@ -7,8 +7,13 @@ To run the code:
 
 The obstacles (in red) with clearance of 5(in green):
 
+![](Obstacle_space.png)
+
 The visualisation video:
 
+
 The path calculated by the Dijkstra Algorithm:
+
+![](Final_output.png)
 
 
