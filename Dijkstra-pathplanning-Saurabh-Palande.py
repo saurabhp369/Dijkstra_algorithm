@@ -202,7 +202,9 @@ def create_obstacles():
     plt.scatter(oc[:,0], oc[:,1], c = 'g', s= 1, label = 'clearance of 5')
     plt.scatter(o[:,0], o[:,1], c = 'r', s =1, label = 'obstacles')
     plt.title('Obstacle space')
+    plt.legend(loc='upper right')
     plt.savefig('Obstacle_space.png')
+    plt.close()
     #plt.show()
 
     
